@@ -3,7 +3,7 @@ import { sidebarLinks } from "@/constants";
 import { SignOutButton, SignedIn } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const LeftSideBar = () => {
   const router = useRouter();
